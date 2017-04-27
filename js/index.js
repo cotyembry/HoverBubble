@@ -9,7 +9,7 @@ import App from './components/App.jsx';
 (function() {
 	var HoverBubbleContainer = document.createElement('div');
 	HoverBubbleContainer.id  = 'HoverBubbleContainerId';
-	HoverBubbleContainer.style = 'width: 100%; height: 100%; position: absolute;';
+	HoverBubbleContainer.style = 'width: 100%; height: 100%; position: absolute; top: 0px;';
 	document.body.appendChild(HoverBubbleContainer);
 	ReactDOM.render(<App />, document.getElementById('HoverBubbleContainerId'))
 })();
@@ -19,6 +19,6 @@ import App from './components/App.jsx';
 //
 // javascript: (function () { 
 //     var jsCode = document.createElement('script'); 
-//     jsCode.setAttribute('src', 'https://rawgit.com/cotyembry/HoverBubble/master/simpleWebsite/App1/js/dist/bundle.js');           
+//     jsCode.setAttribute('src', 'https://rawgit.com/cotyembry/HoverBubble/master/dist/bundle.js');           
 //   document.body.appendChild(jsCode); 
 //  }());
