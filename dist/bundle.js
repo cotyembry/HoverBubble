@@ -68,7 +68,7 @@
 	(function () {
 		var HoverBubbleContainer = document.createElement('div');
 		HoverBubbleContainer.id = 'HoverBubbleContainerId';
-		HoverBubbleContainer.style = 'width: 100%; height: 100%; position: absolute;';
+		HoverBubbleContainer.style = 'width: 100%; height: 100%; position: absolute; top: 0px;';
 		document.body.appendChild(HoverBubbleContainer);
 		_reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('HoverBubbleContainerId'));
 	})();
@@ -77,7 +77,7 @@
 	//
 	// javascript: (function () { 
 	//     var jsCode = document.createElement('script'); 
-	//     jsCode.setAttribute('src', 'https://rawgit.com/cotyembry/HoverBubble/master/simpleWebsite/App1/js/dist/bundle.js');           
+	//     jsCode.setAttribute('src', 'https://rawgit.com/cotyembry/HoverBubble/master/dist/bundle.js');           
 	//   document.body.appendChild(jsCode); 
 	//  }());
 
